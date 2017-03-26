@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="calc.ico">
+		<title>Calculadora </title>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="calculadora.js"></script>
+  </head>
+	<body>
+	<div id = "Cabecera">
+	<h2> Calculadora </h2>
+  <h5>Calculadora donde podemos realizar operaciones aritmeticas basicas ( / * - + ) con los numeros (del 0 al
+9), además podemos hayar la raiz del número con "Sqrt" y el valor inverso con "1/X", dando a “=” para obtener el resultado,tenemos “C” para borrar, "Del" para eliminar el último número que hayamos introducido.</h5>
+	</div>
+	<div id="calc">
+	<input id ="display" type="text" value=" " >
+	<div id ="teclas">
+		<button  id ="C" type="button" value="C">C</button>
+		<button  id ="Del" type="button">Del</button>
+		<button  id ="Sqrt" type="button" value="Sqrt">Sqrt</button>
+		<button  id ="inv" type="button" value="inv">1/X</button>
+
+		<div class="numeros" >
+			<button  type="button" value="7">7</button>
+			<button  type="button" value="8">8</button>
+			<button  type="button" value="9">9</button>
+		</div>
+		<div class="ops" >
+				<button  id="mult" type="button" value="*">*</button>
+		</div>
+		<div class="numeros" >
+			<button type="button" value="4">4</button>
+			<button type="button" value="5">5</button>
+			<button  type="button" value="6">6</button>
+		</div>
+			<div class="ops" >
+				<button  id="div" type="button" value="/">/</button>
+			</div>
+		<div class="numeros" >
+			<button type="button" value="1">1</button>
+			<button type="button" value="2">2</button>
+			<button type="button" value="3">3</button>
+		</div>
+			<div class="ops" >
+				<button  id="add" type="button" value="+">+</button>
+			</div>
+		<div class="numeros" >
+			<button  type="button" value="0">0</button>
+			<button  id ="punto" type="button" value=".">.</button>
+		</div>
+			<div class="ops" >
+				<button  id ="igual" type="button" value="=">=</button>
+				<button  id="subs" type="button" value="-">-</button>
+			</div>
+	</div>
+</div>
+
+
+        <footer>
+        <div class="footer" id = "foot">
+          <hr>
+          <p>&copy; CursosWeb 2017</p>
+          <p> Cristina Gallego Herrero <a id="code-link" href="https://github.com/crisgh/X-Nav-Practica-Calculadora">Código fuente de esta página</a></p><hr>
+        <br>
+          <div class="clearfix visible-xs-block"></div>
+        </div>
+      </footer>
+    </body>
+</html>
